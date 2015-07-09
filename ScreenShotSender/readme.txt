@@ -1,0 +1,7 @@
+概要
+スクリーンショット機能を持ったwindowを貼り付けるクラス
+
+使い方
+appデリゲートのdidFinishLaunchingWithOptionsに以下追加するだけ
+[ScreenShotSender]
+送信先は.mファイルを編集してください。
