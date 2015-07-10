@@ -2,7 +2,7 @@
 //  ScreenShotSender.h
 //
 //
-//  Created by VCJPCM012 on 2015/07/09.
+//  Created by VCJPCM012 on 2015/07/10.
 //  Copyright (c) 2015年 HidekiYokozeki. All rights reserved.
 //
 
@@ -14,7 +14,8 @@
 @interface ScreenShotSender : NSObject<MFMailComposeViewControllerDelegate>
 
 @property (nonatomic,strong)UIWindow* senderWindow;
+@property (nonatomic,strong)UIImage* senderImage;
 
-+(void)setScreenShotWindow
++(void)setScreenShotWindow;
 
 @end
