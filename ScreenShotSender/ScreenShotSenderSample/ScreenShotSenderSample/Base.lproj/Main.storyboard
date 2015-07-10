@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Hhx-KF-Mbb">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1gH-cd-Khq">
+                                <rect key="frame" x="259" y="436" width="41" height="30"/>
+                                <state key="normal" title="View2">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="7nN-ye-d80" kind="push" id="sT8-Kw-UhO"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QzR-Zp-FtW">
+                                <rect key="frame" x="114" y="260" width="321" height="94"/>
+                                <string key="text">ScreenShotViewButton is 
+at the upper left</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="1gH-cd-Khq" secondAttribute="centerX" id="DH8-ht-fx2"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="1gH-cd-Khq" secondAttribute="bottom" constant="134" id="Fr0-CA-SNV"/>
+                            <constraint firstAttribute="centerY" secondItem="QzR-Zp-FtW" secondAttribute="centerY" id="Hr8-yh-NqE"/>
+                            <constraint firstAttribute="centerX" secondItem="QzR-Zp-FtW" secondAttribute="centerX" id="av1-k7-ktM"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="4C5-i3-acu"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="959" y="-346"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="YRL-26-6sc">
+            <objects>
+                <viewController id="7nN-ye-d80" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="TEL-To-kHd"/>
+                        <viewControllerLayoutGuide type="bottom" id="Rzp-An-a9G"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Mcq-u3-Imu">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3MZ-P7-lTW">
+                                <rect key="frame" x="116" y="249" width="349" height="101"/>
+                                <string key="text">ScreenShotViewButton always apear any
+ViewController and 
+it can be moved by dragging</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerY" secondItem="3MZ-P7-lTW" secondAttribute="centerY" id="90q-6a-gGI"/>
+                            <constraint firstAttribute="centerX" secondItem="3MZ-P7-lTW" secondAttribute="centerX" id="wyx-Ao-NUD"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="WEj-Qd-xT4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PmB-zd-dC6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1604" y="-341"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="3X6-uL-xZH">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Hhx-KF-Mbb" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="fGh-Sd-qtL">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="9c1-rX-pfh"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rHv-Th-cQe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="303" y="-341"/>
+        </scene>
+    </scenes>
+</document>
