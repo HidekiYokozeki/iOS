@@ -1,11 +1,9 @@
 概要
 スクリーンショット機能を持ったwindowを貼り付けるクラス
 
-準備
-AFNetwokingが必要です。cocoapodsから導入してください
 
 使い方
-各種設定値を設定後
+各種設定値を設定後
 appデリゲートのdidFinishLaunchingWithOptionsに以下追加するだけ
-[ScreenShotSender]
+[ScreenShotSender　setScreenShotWindow]
 
