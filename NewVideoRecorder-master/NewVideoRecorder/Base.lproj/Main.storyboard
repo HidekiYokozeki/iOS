@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="86d-Eg-uCn">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="Q3u-ph-CUr">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="86d-Eg-uCn" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Dft-aV-1AP">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="9BA-rC-Kad" kind="relationship" relationship="rootViewController" id="oWa-94-2uU"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="riy-3P-6Ny" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="128" y="-371"/>
+        </scene>
+        <!--Recorder View Controller-->
+        <scene sceneID="pWf-ea-SRQ">
+            <objects>
+                <viewController id="9BA-rC-Kad" customClass="RecorderViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="240-2c-q1w"/>
+                        <viewControllerLayoutGuide type="bottom" id="iPU-3f-yug"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8ol-FY-TYv">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="EoX-a3-Tai"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nz4-h4-qt2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="692" y="-371"/>
+        </scene>
+        <!--Movie Edit View Controller-->
+        <scene sceneID="04B-p7-E3o">
+            <objects>
+                <viewController storyboardIdentifier="MovieEditViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="X3h-RC-13G" customClass="MovieEditViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="HdS-Y4-wcl"/>
+                        <viewControllerLayoutGuide type="bottom" id="HaA-i1-W1N"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="rgK-0G-SMf">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="4Tg-Pe-K9S"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qjf-EC-Y5b" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1243" y="-363"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
