@@ -32,6 +32,8 @@
 		6E96671C187DB939002705E6 /* switchCamera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E966718187DB939002705E6 /* switchCamera@2x.png */; };
 		B22F781A1B5F27CC003363B8 /* MoviewEdit.m in Sources */ = {isa = PBXBuildFile; fileRef = B22F78191B5F27CC003363B8 /* MoviewEdit.m */; };
 		B22F781D1B5F27E8003363B8 /* MovieEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B22F781C1B5F27E8003363B8 /* MovieEditViewController.m */; };
+		B23A30451B8C029B007688D6 /* CostumDraggingView.m in Sources */ = {isa = PBXBuildFile; fileRef = B23A30441B8C029B007688D6 /* CostumDraggingView.m */; };
+		B23A30491B8C046E007688D6 /* Defines.m in Sources */ = {isa = PBXBuildFile; fileRef = B23A30481B8C046E007688D6 /* Defines.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +74,10 @@
 		B22F78191B5F27CC003363B8 /* MoviewEdit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoviewEdit.m; sourceTree = "<group>"; };
 		B22F781B1B5F27E8003363B8 /* MovieEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieEditViewController.h; sourceTree = "<group>"; };
 		B22F781C1B5F27E8003363B8 /* MovieEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieEditViewController.m; sourceTree = "<group>"; };
+		B23A30431B8C029B007688D6 /* CostumDraggingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CostumDraggingView.h; sourceTree = "<group>"; };
+		B23A30441B8C029B007688D6 /* CostumDraggingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CostumDraggingView.m; sourceTree = "<group>"; };
+		B23A30471B8C046E007688D6 /* Defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Defines.h; sourceTree = "<group>"; };
+		B23A30481B8C046E007688D6 /* Defines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Defines.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +137,8 @@
 		6E28FD45181615AD00155DB8 /* NewVideoRecorder */ = {
 			isa = PBXGroup;
 			children = (
+				B23A30461B8C0411007688D6 /* Defines */,
+				B23A30421B8C0224007688D6 /* CutomViews */,
 				6E52CAA21818CF6600B92B94 /* VideoRecorder */,
 				6E28FD4E181615AE00155DB8 /* AppDelegate.h */,
 				6E28FD4F181615AE00155DB8 /* AppDelegate.m */,
@@ -191,6 +199,24 @@
 				6E966718187DB939002705E6 /* switchCamera@2x.png */,
 			);
 			path = Images;
+			sourceTree = "<group>";
+		};
+		B23A30421B8C0224007688D6 /* CutomViews */ = {
+			isa = PBXGroup;
+			children = (
+				B23A30431B8C029B007688D6 /* CostumDraggingView.h */,
+				B23A30441B8C029B007688D6 /* CostumDraggingView.m */,
+			);
+			name = CutomViews;
+			sourceTree = "<group>";
+		};
+		B23A30461B8C0411007688D6 /* Defines */ = {
+			isa = PBXGroup;
+			children = (
+				B23A30471B8C046E007688D6 /* Defines.h */,
+				B23A30481B8C046E007688D6 /* Defines.m */,
+			);
+			name = Defines;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,11 +297,13 @@
 				6E52CAAE1818CF6600B92B94 /* CaptureManager.m in Sources */,
 				6E52CAAC1818CF6600B92B94 /* AVCamRecorder.m in Sources */,
 				6E52CAA11818C14A00B92B94 /* RecorderViewController.m in Sources */,
+				B23A30451B8C029B007688D6 /* CostumDraggingView.m in Sources */,
 				B22F781A1B5F27CC003363B8 /* MoviewEdit.m in Sources */,
 				B22F781D1B5F27E8003363B8 /* MovieEditViewController.m in Sources */,
 				6E52CAAF1818CF6600B92B94 /* KZCameraView.m in Sources */,
 				6E28FD50181615AE00155DB8 /* AppDelegate.m in Sources */,
 				6E28FD4C181615AE00155DB8 /* main.m in Sources */,
+				B23A30491B8C046E007688D6 /* Defines.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

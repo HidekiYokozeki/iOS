@@ -8,10 +8,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CostumDraggingView.h"
 
-@interface MovieEditViewController : UIViewController<UIScrollViewDelegate>
+@interface MovieEditViewController : UIViewController<UIScrollViewDelegate,CostumDraggingDelegate>
 
 @property(nonatomic, strong) NSURL *fileURL;
 @property(nonatomic, strong) NSMutableArray *array;
+
+//-(void)changeThumnail:(int)leftViewPosition;
 
 @end
